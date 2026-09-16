@@ -329,6 +329,7 @@ async def health() -> Dict[str, Any]:
 
 
 @app.post("/api/contact")
+@app.post("/contact")
 async def contact(payload: ContactRequest, request: Request):
     client_ip = (request.headers.get("x-forwarded-for", "").split(",")[0].strip()
                  or (request.client.host if request.client else "unknown"))
