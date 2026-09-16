@@ -152,7 +152,7 @@ var ENDPOINT = API_BASE.replace(/\/+$/, "") + "/api/contact";
     var controller = typeof AbortController !== "undefined" ? new AbortController() : null;
     var timer = controller ? window.setTimeout(function () { controller.abort(); }, 20000) : null;
 
-    fetch(ENDPOINT, {
+    fetch("https://aureva-backend.vercel.app/api/contact",{
       method: "POST",
       headers: { "Content-Type": "application/json", "Accept": "application/json" },
       body: JSON.stringify(data),
