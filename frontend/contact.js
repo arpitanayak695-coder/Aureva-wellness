@@ -9,8 +9,8 @@
   var form = document.getElementById("contactForm");
   if (!form) return;
 
-  var API_BASE = window.AUREVA_API_BASE || "http://127.0.0.1:8000";
-  var ENDPOINT = API_BASE.replace(/\/+$/, "") + "/api/contact";
+var API_BASE = (window.AUREVA_CONFIG && window.AUREVA_CONFIG.API_BASE_PRODUCTION) || "https://aureva-backend.vercel.app";
+var ENDPOINT = API_BASE.replace(/\/+$/, "") + "/api/contact";
 
   var submitBtn = document.getElementById("submitBtn");
   var btnLabel = submitBtn.querySelector(".btn-label");
