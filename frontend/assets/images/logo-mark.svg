@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Aureva Wellness logo">
+<title>Aureva Wellness logo</title>
+<defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0" stop-color="#FB8FB4"/><stop offset="1" stop-color="#E0356F"/></linearGradient></defs>
+<rect width="64" height="64" rx="18" fill="url(#lg)"/>
+<path d="M32,16 q14,10 14,22 q0,12 -14,12 q-14,0 -14,-12 q0,-12 14,-22 z" fill="#FFFFFF" fill-opacity=".92"/>
+<path d="M32,50 q-9,-6 -9,-12" stroke="#FFD9E6" stroke-width="3" fill="none" stroke-linecap="round"/>
+</svg>

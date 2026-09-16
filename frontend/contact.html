@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — Aureva Wellness</title>
+<meta name="description" content="Request a class, a personal session or a studio visit at Aureva Wellness. Tell us the programme, day and time that suits you.">
+<link rel="icon" type="image/svg+xml" href="assets/images/logo-mark.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="contact.css">
+</head>
+<body class="page-contact">
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header" id="siteHeader">
+  <nav class="nav" aria-label="Main">
+    <a class="brand" href="index.html">
+      <img src="assets/images/logo-mark.svg" alt="" width="34" height="34">
+      <span>Aureva</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu">
+      <span class="nav-toggle-bars" aria-hidden="true"></span>
+      <span class="sr-only">Menu</span>
+    </button>
+    <ul class="nav-menu" id="navMenu">
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#programs">Classes</a></li>
+      <li><a href="index.html#membership">Membership</a></li>
+      <li><a href="index.html#guides">Guides</a></li>
+      <li><a href="index.html#stories">Stories</a></li>
+      <li class="nav-menu-cta"><a class="btn btn-primary" href="index.html">Back to home</a></li>
+    </ul>
+    <a class="btn btn-primary nav-cta" href="index.html">Back to home</a>
+  </nav>
+</header>
+
+<main id="main" class="contact-main">
+  <div class="shell contact-grid">
+
+    <aside class="contact-aside">
+      <p class="eyebrow">Contact us</p>
+      <h1>Tell us how you<br>would like to practise</h1>
+      <p class="contact-lede">Send the form and a guide replies within one working day
+        with a suggested class, a time and directions to the studio.</p>
+
+      <img class="contact-art" src="assets/images/contact-yoga.svg"
+           alt="A guide seated in meditation, ready to welcome new students"
+           width="760" height="900">
+
+      <ul class="contact-facts">
+        <li><strong>Studio</strong>Jayadev Vihar, Bhubaneswar, Odisha 751013</li>
+        <li><strong>Open</strong>Every day, 6:00 am – 8:00 pm</li>
+        <li><strong>Phone</strong><a href="tel:+919000000000">+91 90000 00000</a></li>
+        <li><strong>Email</strong><a href="mailto:hello@aureva.example">hello@aureva.example</a></li>
+      </ul>
+    </aside>
+
+    <section class="contact-panel" aria-labelledby="formTitle">
+      <h2 id="formTitle">Request a class</h2>
+      <p class="contact-panel-note">All fields are required. We only ask for what we need
+        to hold a mat for you — please do not send medical records.</p>
+
+      <!-- success panel: shown in-page after a successful submission -->
+      <div class="form-success" id="formSuccess" hidden>
+        <span class="form-success-mark" aria-hidden="true">✓</span>
+        <h3>Thank you! Your request has been submitted successfully.</h3>
+        <p>Our wellness team will contact you soon — usually within one working day.
+          A copy of your request has been sent to the studio inbox.</p>
+        <button type="button" class="btn btn-primary" id="sendAnother">Send another request</button>
+      </div>
+
+      <!-- server/network level error -->
+      <p class="form-alert" id="formAlert" role="alert" hidden></p>
+
+      <form class="contact-form" id="contactForm" novalidate>
+        <div class="field">
+          <label for="fullName">Full name</label>
+          <input type="text" id="fullName" name="full_name" autocomplete="name"
+                 maxlength="80" placeholder="Ritu Panda" required>
+          <p class="field-error" id="error-full_name" aria-live="polite"></p>
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="mobile">Mobile number</label>
+            <input type="tel" id="mobile" name="mobile" autocomplete="tel"
+                   maxlength="20" placeholder="+91 90000 00000" required>
+            <p class="field-error" id="error-mobile" aria-live="polite"></p>
+          </div>
+          <div class="field">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" autocomplete="email"
+                   maxlength="120" placeholder="you@example.com" required>
+            <p class="field-error" id="error-email" aria-live="polite"></p>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="program">Programme</label>
+          <select id="program" name="program" required>
+            <option value="">Choose a programme</option>
+            <option>Beginner yoga</option>
+            <option>Meditation</option>
+            <option>Stress relief</option>
+            <option>Flexibility &amp; mobility</option>
+            <option>Mindfulness</option>
+            <option>Personal wellness session</option>
+            <option>Not sure yet — please advise</option>
+          </select>
+          <p class="field-error" id="error-program" aria-live="polite"></p>
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="preferredDate">Preferred date</label>
+            <input type="date" id="preferredDate" name="preferred_date" required>
+            <p class="field-error" id="error-preferred_date" aria-live="polite"></p>
+          </div>
+          <div class="field">
+            <label for="preferredTime">Preferred time</label>
+            <input type="time" id="preferredTime" name="preferred_time" required>
+            <p class="field-error" id="error-preferred_time" aria-live="polite"></p>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="message">What are you looking for?</label>
+          <textarea id="message" name="message" rows="5" maxlength="1000"
+                    placeholder="A little about your experience, what you hope to work on, and anything that helps us plan the session."
+                    required></textarea>
+          <p class="field-hint"><span id="messageCount">0</span> / 1000</p>
+          <p class="field-error" id="error-message" aria-live="polite"></p>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-lg btn-block" id="submitBtn">
+          <span class="btn-label">Send request</span>
+          <span class="btn-spinner" aria-hidden="true"></span>
+        </button>
+        <p class="form-foot">By sending this form you agree that we may contact you about
+          your request. We never share your details.</p>
+      </form>
+    </section>
+  </div>
+</main>
+
+<footer class="site-footer contact-footer">
+  <div class="shell footer-base">
+    <p>© <span id="year">2026</span> Aureva Wellness. All rights reserved.</p>
+    <p><a href="index.html">Back to the studio</a></p>
+  </div>
+</footer>
+
+<script src="config.js"></script>
+<script src="main.js"></script>
+<script src="contact.js"></script>
+</body>
+</html>

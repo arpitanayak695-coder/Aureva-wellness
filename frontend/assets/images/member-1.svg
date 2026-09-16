@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" role="img" aria-label="Portrait illustration of a smiling member">
+<title>Portrait illustration of a smiling member</title>
+<defs><linearGradient id="pmember-1svg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#FFF1EC"/><stop offset="1" stop-color="#FADCD4"/></linearGradient>
+    <clipPath id="cmember-1svg"><circle cx="300" cy="300" r="300"/></clipPath></defs>
+  <g clip-path="url(#cmember-1svg)">
+  <rect width="600" height="600" fill="url(#pmember-1svg)"/>
+  <circle cx="300" cy="286" r="210" fill="#FFFFFF" fill-opacity=".45"/>
+  <path d="M110,600 q40,-170 190,-170 q150,0 190,170 z" fill="#F6A8A0"/>
+  <path d="M232,430 q68,44 136,0 l0,-70 l-136,0 z" fill="#D5A385"/><path d="M150,330 q0,-210 150,-210 q150,0 150,210 q-30,-120 -150,-120 q-120,0 -150,120 z" fill="#6B4238"/>
+  <ellipse cx="300" cy="300" rx="132" ry="152" fill="#E8BB9E"/>
+  <path d="M164,290 q0,-186 136,-186 q136,0 136,186 q-28,-84 -136,-84 q-108,0 -136,84 z" fill="#8A5A4E"/>
+  <path d="M244,300 q26,26 52,0" stroke="#D5A385" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <path d="M304,300 q26,26 52,0" stroke="#D5A385" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <path d="M280,368 q22,20 44,0" stroke="#D5A385" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <ellipse cx="216" cy="338" rx="20" ry="13" fill="#F6A8A0" opacity=".45"/>
+  <ellipse cx="384" cy="338" rx="20" ry="13" fill="#F6A8A0" opacity=".45"/>
+  </g>
+</svg>

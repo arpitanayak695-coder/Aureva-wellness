@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 760" width="600" height="760" role="img" aria-label="Illustration of a yoga practitioner in tree pose">
+<title>Illustration of a yoga practitioner in tree pose</title>
+<rect width="600" height="760" fill="none"/><path d="M60,200 q21.599999999999998,-31.2 48.0,-4.8 q-24.0,28.799999999999997 -48.0,4.8 z" fill="#F48CB4" fill-opacity=".3" transform="rotate(-16 60 200)"/><g transform="translate(300,700) scale(2.2)">
+<ellipse cx="0" cy="4" rx="46" ry="10" fill="rgba(216,90,140,.13)"/>
+<path d="M-11,-96 L-11,-6 Q-11,2 -2,2 L10,2 Q14,2 12,-4 L2,-96 z" fill="#F7CDBC"/>
+<path d="M-8,-104 Q-58,-88 -46,-58 Q-30,-74 -4,-70 z" fill="#EFB7A4"/>
+<path d="M-26,-122 Q0,-132 26,-122 L22,-86 Q0,-78 -22,-86 z" fill="#E85F94"/>
+<path d="M-24,-196 Q0,-206 24,-196 Q30,-160 26,-120 Q0,-110 -26,-120 Q-30,-160 -24,-196 z" fill="#FB8FB4"/>
+<path d="M-20,-190 Q-34,-232 -5,-252" stroke="#F7CDBC" stroke-width="12" fill="none" stroke-linecap="round"/>
+<path d="M20,-190 Q34,-232 5,-252" stroke="#F7CDBC" stroke-width="12" fill="none" stroke-linecap="round"/>
+<circle cx="0" cy="-256" r="9" fill="#EFB7A4"/>
+<rect x="-6" y="-212" width="12" height="14" rx="6" fill="#EFB7A4"/>
+
+  <path d="M-24,-224 q-4,-28.35 24,-31.5 q24,3.15 24,31.5
+           q-7.35,-11.55 -24,-11.55 q-13.02,0 -24,11.55 z"
+        fill="#D64B7E"/>
+  <ellipse cx="0" cy="-226" rx="18.06" ry="21" fill="#F7CDBC"/>
+  <path d="M-18.900000000000002,-228.1 q0,-26.25 18.900000000000002,-26.25
+           q18.900000000000002,0 18.900000000000002,26.25 q-4.2,-10.5 -18.900000000000002,-10.5
+           q-14.7,0 -18.900000000000002,10.5 z" fill="#F0709C"/>
+  <path d="M-7.140000000000001,-224.32 q3.78,3.36 7.56,0" stroke="#EFB7A4"
+        stroke-width="1.89" fill="none" stroke-linecap="round"/>
+  <path d="M2.9400000000000004,-224.32 q3.78,3.36 7.56,0" stroke="#EFB7A4"
+        stroke-width="1.89" fill="none" stroke-linecap="round"/>
+  <path d="M-3.36,-216.55 q3.5700000000000003,3.36 7.140000000000001,0" stroke="#EFB7A4"
+        stroke-width="1.68" fill="none" stroke-linecap="round"/>
+  <path d="M-19.95,-229.15 q-10.5,31.5 2.52,44.1
+           q4.2,-23.1 7.35,-33.6 z" fill="#F0709C"/>
+  <path d="M19.95,-229.15 q10.5,31.5 -2.52,44.1
+           q-4.2,-23.1 -7.35,-33.6 z" fill="#F0709C"/>
+</g>
+</svg>
