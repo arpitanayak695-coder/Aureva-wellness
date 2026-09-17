@@ -39,7 +39,9 @@ COMPANY_NAME = os.getenv("COMPANY_NAME", "Aureva Wellness").strip()
 
 
 FRONTEND_ORIGIN = os.getenv("FRONTEND_ORIGIN", "http://127.0.0.1:5500").strip()
-ALLOWED_ORIGINS: List[str] = ["*",FRONTEND_ORIGIN]
+ALLOWED_ORIGINS: List[str] = ["*","http://127.0.0.1:5500",
+    "http://localhost:5500",
+    "https://aureva-wellness.vercel.app",FRONTEND_ORIGIN]
 
 
 SMTP_DRY_RUN = os.getenv("SMTP_DRY_RUN", "false").strip().lower() in {"1", "true", "yes"}
