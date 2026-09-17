@@ -9,7 +9,9 @@
   var form = document.getElementById("contactForm");
   if (!form) return;
 
-var API_BASE = (window.AUREVA_CONFIG && window.AUREVA_CONFIG.API_BASE_PRODUCTION) || "https://aureva-backend.vercel.app";
+// var API_BASE = (window.AUREVA_CONFIG && window.AUREVA_CONFIG.API_BASE_PRODUCTION) || "https://aureva-backend.vercel.app";
+// var ENDPOINT = API_BASE.replace(/\/+$/, "") + "/api/contact";
+var API_BASE = window.AUREVA_API_BASE || "http://127.0.0.1:8000";
 var ENDPOINT = API_BASE.replace(/\/+$/, "") + "/api/contact";
 
   var submitBtn = document.getElementById("submitBtn");
@@ -152,7 +154,7 @@ var ENDPOINT = API_BASE.replace(/\/+$/, "") + "/api/contact";
     var controller = typeof AbortController !== "undefined" ? new AbortController() : null;
     var timer = controller ? window.setTimeout(function () { controller.abort(); }, 20000) : null;
 
-    fetch("https://aureva-backend.vercel.app/api/contact",{
+    fetch(ENDPOINT,{
       method: "POST",
       headers: { "Content-Type": "application/json", "Accept": "application/json" },
       body: JSON.stringify(data),
